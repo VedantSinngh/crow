@@ -13,6 +13,8 @@ This project demonstrates how to export a YOLO model to the NCNN format and run 
 - NCNN-compatible YOLO model
 - `wget` (or manually download `yolo_detect.py`)
 - USB webcam or test media (images/videos)
+- pip install ultralytics opencv-python numpy
+
 
 ---
 
