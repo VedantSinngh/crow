@@ -43,7 +43,7 @@ This script handles loading the NCNN model and running detection on the selected
 #### a. Run on USB camera (e.g., webcam)
 
 ```bash
-python yolo_detect.py --model=yolo11n_ncnn_model --source=usb0 --resolution=640x480
+python yolo_detect.py --model=yolo11n_ncnn_model --source=picamera0 --resolution=640x480
 ```
 
 * `--model`: folder or prefix of NCNN model files (e.g., `yolo11n_ncnn_model.param` and `.bin`)
